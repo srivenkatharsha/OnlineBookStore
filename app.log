@@ -1,0 +1,52 @@
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-26T19:13:11+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-26T19:51:40+05:30"}
+{"level":"info","msg":"Account is successfully deleted","time":"2023-08-26T19:53:17+05:30"}
+{"level":"warning","msg":"Account has already been deleted","time":"2023-08-26T19:53:20+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-26T20:03:36+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-26T21:26:02+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-26T21:33:56+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-26T22:18:07+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-26T22:34:37+05:30"}
+{"level":"info","msg":"Book created successfully","time":"2023-08-26T22:38:06+05:30"}
+{"level":"info","msg":"Book updated successfully","time":"2023-08-26T22:45:17+05:30"}
+{"level":"info","msg":"Book deleted successfully","time":"2023-08-26T22:45:35+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T11:10:42+05:30"}
+{"level":"info","msg":"Book created successfully","time":"2023-08-27T11:20:42+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T11:24:48+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T11:53:01+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T11:55:58+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T11:58:04+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T12:17:26+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T12:27:35+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T12:36:16+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T14:26:58+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T15:01:55+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T15:26:24+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T15:28:06+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T15:31:12+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T15:36:07+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T15:53:49+05:30"}
+{"level":"info","msg":"Book deleted successfully","time":"2023-08-27T15:59:25+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T16:36:46+05:30"}
+{"level":"info","msg":"Book created successfully","time":"2023-08-27T16:37:44+05:30"}
+{"level":"info","msg":"Book deleted successfully","time":"2023-08-27T16:38:03+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T19:35:12+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-27T20:13:59+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T18:59:18+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T19:35:35+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T20:14:38+05:30"}
+{"error":"EOF","level":"warning","msg":"Failed to bind download link JSON","time":"2023-08-29T22:28:08+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T22:32:09+05:30"}
+{"error":"ERROR: insert or update on table \"book_downloads\" violates foreign key constraint \"fk_books_book_download\" (SQLSTATE 23503)","level":"error","msg":"Failed to add download link to BookDownload table","time":"2023-08-29T22:32:47+05:30"}
+{"error":"ERROR: insert or update on table \"book_downloads\" violates foreign key constraint \"fk_books_book_download\" (SQLSTATE 23503)","level":"error","msg":"Failed to add download link to BookDownload table","time":"2023-08-29T22:39:38+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T22:53:36+05:30"}
+{"error":"ERROR: insert or update on table \"book_downloads\" violates foreign key constraint \"fk_books_book_download\" (SQLSTATE 23503)","level":"error","msg":"Failed to add download link to BookDownload table","time":"2023-08-29T22:54:10+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T22:59:07+05:30"}
+{"level":"info","msg":"Book created successfully","time":"2023-08-29T22:59:50+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T23:16:24+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T23:17:23+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-29T23:19:44+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-30T01:14:31+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-30T11:05:56+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-30T12:08:01+05:30"}
+{"level":"info","msg":"Starting the server on port :8080","time":"2023-08-30T13:49:47+05:30"}

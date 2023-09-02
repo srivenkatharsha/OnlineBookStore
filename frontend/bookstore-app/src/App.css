@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1976d2;
+}
+
+.navbar-title {
+  flex-grow: 1;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-button {
+  margin-left: 16px;
+  color: white;
+}
+
+.no-style {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Slideshow */
+.slideshow {
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - var(--navbar-height));
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.slideshowSlider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slidesContainer {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100vw;
+  height: 110vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the image horizontally and vertically */
+  position: relative;
+}
+
+/* Text container styles */
+.slideTextContainer {
+  position: absolute;
+  bottom: 150px;
+  left: 70px;
+  /* max-width: calc(100% - 40px); Adjust the maximum width as needed */
+  color: white;
+  font-family: 'ADLaM Display', cursive; /* Add this line to apply the Google Font */
+  font-size: 30px;
+}
+
+
+/* Dots */
+.slideshowDotsOnSlider {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(var(--navbar-height) + 20px);
+  z-index: 1;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #1976d2;
+}
+
+/* Additional Styles */
+.about-us {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-end; /* Align to the bottom */
+  margin-top: 20px;
+  margin-bottom:20px;
+  }
+
