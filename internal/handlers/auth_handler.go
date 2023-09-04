@@ -1,3 +1,8 @@
+/*
+   auth_handler contains HTTP request handlers for user authentication and account management.
+   These handlers include functionality for user registration, login, logout, and account deletion.
+*/
+
 package handlers
 
 import (

@@ -13,6 +13,7 @@ import {
 import api from '../services/api';
 import { useParams } from 'react-router-dom';
 import NavbarVerified from './NavbarVerified';
+import NavbarAdmin from './NavbarAdmin';
 
 const reviewContainerStyle = {
     border: '1px solid #ccc',
@@ -92,10 +93,11 @@ function Reviews() {
     const startIndex = (page - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const displayedReviews = reviews.slice(startIndex, endIndex);
+    const username = sessionStorage.getItem('username');
 
     return (
         <>
-            <NavbarVerified />
+            {username === 'admin' ? <NavbarAdmin /> : <NavbarVerified />}
             <Typography variant="h5" style={typographyStyle}>Reviews:</Typography>
             {reviews.length === 0 ? (
                 <Typography variant="body1" style={typographyStyle}>No reviews yet. Be the first person to review this book.</Typography>

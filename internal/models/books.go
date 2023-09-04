@@ -1,3 +1,5 @@
+// Consists database models and helper function for books
+
 package models
 
 import (

@@ -1,3 +1,5 @@
+/*This is a middleware whose main role is to ensure admin only restriction to custom routes*/
+
 package middlewares
 
 import (

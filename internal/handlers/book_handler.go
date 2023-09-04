@@ -1,3 +1,9 @@
+/*
+   book_handler.go contains HTTP request handlers for managing bookstore books.
+   These handlers include functionality for fetching all books and retrieving details
+   of a specific book by ID.
+*/
+
 package handlers
 
 import (

@@ -89,7 +89,7 @@ function BookAdminDisplay() {
     const price = parseFloat(prompt(`Enter the new price of the book (old version: price is "${book.price}"):`));
     if (isNaN(price)) return;
 
-    const downloadLink = prompt('Enter the new download link :');
+    const downloadLink = prompt('Enter the new download link (include https://):');
     if (downloadLink === null) return;
 
     const updatedBook = {

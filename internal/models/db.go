@@ -1,3 +1,5 @@
+// Initializes the database and performs auto migrations
+
 package models
 
 import (

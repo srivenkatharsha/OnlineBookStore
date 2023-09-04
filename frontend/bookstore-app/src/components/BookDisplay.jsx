@@ -5,8 +5,8 @@ import {
   Typography,
   Grid,
   Button,
-  TextField, // Import TextField for the search bar
-  Pagination, // Import Pagination
+  TextField, 
+  Pagination, 
 } from '@mui/material';
 import { styled } from '@mui/system';
 import api from '../services/api';
@@ -135,14 +135,6 @@ function BookDisplay() {
   );
 
   const displayedBooks = filteredBooks.slice(startIndex, endIndex);
-
-  const handleOpenReviewPopup = () => {
-    setReviewPopupOpen(true);
-  };
-
-  const handleCloseReviewPopup = () => {
-    setReviewPopupOpen(false);
-  };
 
   return (
     <div>

@@ -40,7 +40,7 @@ function NavbarAdmin() {
     const price = parseFloat(prompt('Enter the price of the book:'));
     if (price === null) return;
   
-    const downloadLink = prompt('Enter the download link of the book:');
+    const downloadLink = prompt('Enter the download link of the book (include https://):');
     if (downloadLink === null) return;
   
     // Create a book object

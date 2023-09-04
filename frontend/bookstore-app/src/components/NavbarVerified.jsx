@@ -140,7 +140,7 @@ function NavbarVerified() {
 
       if (response.status === 200) {
         // Handle the response data as needed
-        const balance = response.data.balance; // Assuming the server returns a 'balance' field
+        const balance = response.data.balance.toFixed(2); // Assuming the server returns a 'balance' field
         console.log('Balance:', balance);
         window.alert('Your total balance: ' + balance);
       } else {

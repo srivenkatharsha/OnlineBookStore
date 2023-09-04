@@ -1,3 +1,8 @@
+/*
+   review_handler.go contains HTTP request handlers for managing book reviews in a bookstore.
+   These handlers include functionality for retrieving reviews for a book by ISBN and posting reviews.
+*/
+
 package handlers
 
 import (

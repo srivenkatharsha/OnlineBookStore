@@ -1,3 +1,8 @@
+/*
+   transaction_handler.go contains HTTP request handlers for managing book transactions and ownership status in a bookstore.
+   These handlers include functionality for buying books, checking balance, ownership status, and retrieving download links.
+*/
+
 package handlers
 
 import (

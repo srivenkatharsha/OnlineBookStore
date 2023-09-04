@@ -1,4 +1,5 @@
-// models/transaction.go
+// includes transaction models and helper functions.
+
 package models
 
 import (
